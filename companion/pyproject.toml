@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "silvercord"
+version = "0.1.0"
+description = "Companion script for the Silvercord WoW addon: turns session logs into a chronicle."
+requires-python = ">=3.11"
+dependencies = ["anthropic>=2.3"]
+
+[project.optional-dependencies]
+watch = ["psutil>=5.9"]
+dev = ["pytest>=8", "lupa>=2.0"]
+
+[project.scripts]
+silvercord = "silvercord.cli:main"
+
+[tool.setuptools]
+packages = ["silvercord"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

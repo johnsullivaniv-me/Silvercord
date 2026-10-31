@@ -1,0 +1,9 @@
+# Copy to silvercord.toml (next to where you run the command),
+# or to %APPDATA%\Silvercord\config.toml. Every key is optional.
+
+# sv_path = 'C:\Program Files (x86)\World of Warcraft\_forever_\WTF\Account\MYACCOUNT\SavedVariables\Silvercord.lua'
+# wow_path = 'D:\Games\World of Warcraft'
+# account = "MYACCOUNT"
+# out_dir = 'C:\Users\me\Documents\Silvercord Chronicle'
+# model = "claude-sonnet-5-5"
+# min_minutes = 10

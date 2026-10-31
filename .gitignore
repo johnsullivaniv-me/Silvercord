@@ -1,0 +1,15 @@
+# Generated chronicle output (personal; keep out of the repo)
+chronicle/
+sample-chronicle/
+.silvercord-state.json
+silvercord.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/

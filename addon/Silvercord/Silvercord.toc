@@ -1,0 +1,17 @@
+## Interface: 16001
+## Title: Silvercord
+## Notes: A quiet chronicler. Logs your adventures for the Silvercord companion script. Observe-only.
+## Author: John Sullivan
+## Version: 0.1.0
+## SavedVariables: SilvercordDB
+## IconTexture: Interface\Icons\INV_Misc_Book_09
+
+# Interface number: 16001 is the WoW: Forever beta value reported by the
+# community; it is NOT confirmed against the live client. Verify in-game with:
+#   /dump select(4, GetBuildInfo())
+# and replace the number above if it differs. Until then, ticking
+# "Load out of date AddOns" on the character-select AddOns screen also works.
+
+Compat.lua
+Core.lua
+Events.lua
